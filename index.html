@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./aluraconf/css/reset.css">
+    <link rel="stylesheet" href="./aluraconf/css/base.css">
+    <link rel="stylesheet" href="./aluraconf/css/cabecalho.css">
+    <link rel="stylesheet" href="./aluraconf/css/sobre.css">
+    <link rel="stylesheet" href="./aluraconf/css/palestrantes.css">
+    <link rel="stylesheet" href="./aluraconf/css/formulario.css">
+    <link rel="stylesheet" href="./aluraconf/css/rodape.css">
+
+    <title>Aluraconf</title>
+</head>
+
+<body>
+    <header class="cabecalho" id="painel-inicial">
+        <nav class="cabecalho-menu">
+            <ul>
+                <li class="cabecalho-link"><a href="#painel-sobre">Sobre</a></li>
+                <li class="cabecalho-link"><a href="#painel-palestrantes">Palestrantes</a></li>
+            </ul>
+        </nav>
+        <div class="jumbotrom">
+            <section class="painel-main">
+                <h1 class="painel-titulo">Aluraconf</h1>
+                <h2 class="painel-subtitulo">30maio|Rio</h2>
+            </section>
+            <section class="painel-inscricao">
+                <a href="#painel-formulario" class="botao">Inscreva-se</a>
+            </section>
+        </div>
+    </header>
+    <section id="painel-sobre" class="painel-sobre">
+        <div class="container">
+            <h3 class="titulo">Muito conteúdo: do frontend ao backend</h3>
+            <h4 class="subtitulo">30 de Maio de 2017 - na Cidade Maravilhosa</h4>
+
+            <div class="descricao-sobre">
+                <p>Com a AluraConf abordaremos o que há de novidade e conhecimentos essenciais a um desenvolvedor
+                    mobile.
+                </p>
+
+                <p> É uma grande chance de ficar por dentro dos assuntos de Android, IOS, WEB mobile, desenvolvimento
+                    híbrido, UX, álem da parte de backende com RestMicroservices e BigData. O desenvolvimento atualizado
+                    vai estar aqui.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="painel-palestrantes" class="painel-palestrantes">
+        <div class="sobre-palestra">
+            <h2 class="titulo">Palestrantes</h2>
+            <h3 class="subtitulo">Apenda com palestrantes que são referência no mercado</h3>
+        </div>
+        <ul>
+            <li class="lista-palestrante">
+                <figure class="caixa">
+                    <img class="imagem-palestrante" src="./aluraconf/img/palestrantes/placeholder.jpeg" alt="">
+                    <figcaption class="nome-palestrante">Nome palestrante</figcaption>
+                    <p class="profissao">Sua profissão </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </figure>
+            </li>
+            <li class="lista-palestrante">
+                <figure class="caixa">
+                    <img class="imagem-palestrante" src="./aluraconf/img/palestrantes/placeholder.jpeg" alt="">
+                    <figcaption class="nome-palestrante">Nome palestrante</figcaption>
+                    <p class="profissao">Sua profissão</p>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.Accusantium tempore
+                        dignissimos aspernatur animi. Sapiente amet accusantium
+                    </p>
+                </figure>
+            </li>
+            <li class="lista-palestrante">
+                <figure class="caixa">
+                    <img class="imagem-palestrante" src="./aluraconf/img/palestrantes/placeholder.jpeg" alt="">
+                    <figcaption class="nome-palestrante">Nome palestrante</figcaption>
+                    <p class="profissao">Sua profissão</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </figure>
+            </li>
+            <li class="lista-palestrante">
+                <figure class="caixa">
+                    <img class="imagem-palestrante" src="./aluraconf/img/palestrantes/placeholder.jpeg" alt="">
+                    <figcaption class="nome-palestrante">Nome palestrante</figcaption>
+                    <p class="profissao">Sua profissão</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </figure>
+            </li>
+            <li class="lista-palestrante">
+                <figure class="caixa">
+                    <img class="imagem-palestrante" src="./aluraconf/img/palestrantes/placeholder.jpeg" alt="">
+                    <figcaption class="nome-palestrante">Nome palestrante</figcaption>
+                    <p class="profissao">Sua profissão</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </figure>
+            </li>
+            <li class="lista-palestrante">
+                <figure class="caixa">
+                    <img class="imagem-palestrante" src="./aluraconf/img/palestrantes/placeholder.jpeg" alt="">
+                    <figcaption class="nome-palestrante">Nome palestrante</figcaption>
+                    <p class="profissao">Sua profissão</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </figure>
+            </li>
+            <li class="lista-palestrante">
+                <figure class="caixa">
+                    <img class="imagem-palestrante" src="./aluraconf/img/palestrantes/placeholder.jpeg" alt="">
+                    <figcaption class="nome-palestrante">Nome palestrante</figcaption>
+                    <p class="profissao">Sua profissão</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </figure>
+            </li>
+        </ul>
+    </section>
+    <section id="painel-formulario" class="painel-formulario">
+        <div class="container">
+            <h2 class="titulo">Seus dados</h2>
+            <form id="formulario">
+                <div class="formulario input-invalido">
+                    <label>Nome</label>
+                    <input type="text" name="nome" class="input-padrao" required autocomplete="off"
+                        placeholder="Nome Completo">
+                    <span class="input-mensagem-erro">Este campo não está válido.</span>
+                </div>
+                <div class="formulario">
+                    <label>E-mail</label>
+                    <input type="email" name="email" class="input-padrao" required autocomplete="off"
+                        placeholder="seuemail@email.com">
+                    <span class="input-mensagem-erro">Este campo não está válido.</span>
+                </div>
+                <div class="botao-inscricao">
+                    <button type="button" class="botao">Realizar Inscrição</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <a href="#painel-inicial">
+            <p class="copyright">&copy; Copyright - Janine Santos - 2021</p>
+        </a>
+    </footer>
+    <script src="./aluraconf/js/jquery.js"></script>
+    <script src="./aluraconf/js/index.js"></script>
+    <script src="./aluraconf/js/app.js" type="module"></script>
+
+</body>
+
+</html>

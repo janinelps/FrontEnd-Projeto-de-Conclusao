@@ -1,0 +1,52 @@
+.painel-palestrantes {
+    background-color: var(--alaranjado);
+    padding: 40px;
+    text-align: center;
+}
+
+.painel-palestrantes .titulo {
+    color: var(--branco);
+    font-size: 40px;
+    margin-bottom: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.painel-palestrantes .subtitulo {
+    color: var(--branco);
+    font-size: 30px;
+    margin: 20px;
+    text-align: center;
+}
+
+.painel-palestrantes .lista-palestrante {
+    background-color: var(--branco);
+    display: inline-block;
+    margin: 0 16px 32px 0;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.painel-palestrantes .lista-palestrante:hover {
+    background-color: var(--preto);
+    cursor: pointer;
+}
+
+.caixa {
+    display: table-caption;
+    margin: 0 auto;
+}
+
+.painel-palestrantes .imagem-palestrante {
+    border-radius: 50%;
+}
+
+.painel-palestrantes .imagem-palestrante .nome-palestrante, .profissao {
+    margin: 10px 0 10px 0;
+}
+
+.profissao {
+    font-weight: bolder;
+}

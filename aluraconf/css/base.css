@@ -1,0 +1,38 @@
+:root {
+    --azul: #48A3A6;
+    --verde: #76FF40;
+    --branco: #FFF;
+    --preto: rgba(0, 0, 0, 0.1);
+    --alaranjado: #EF7247;
+    --vermelho: rgb(199, 9, 9);
+}
+
+@media screen and (min-width: 650px) {
+    .cabecalho .jumbotrom {
+        font-size: 28px;
+    }
+}
+
+.container {
+    width: 96%;
+    padding: 0 auto;
+}
+
+.botao {
+    background: var(--azul);
+    border-radius: 10px;
+    border: none;
+    color: var(--branco);
+    display: inline-block;
+    font-size: 18px;
+    padding: 25px 50px;
+    margin: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: ease-in-out .5s;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: var(--verde);
+}

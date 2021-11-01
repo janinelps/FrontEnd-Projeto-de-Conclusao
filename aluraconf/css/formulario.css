@@ -1,0 +1,47 @@
+.painel-formulario {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.painel-formulario .titulo {
+    color: var(--alaranjado);
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.botao-inscricao {
+    text-align: center;
+}
+
+.formulario {
+    margin-bottom: 15px;
+}
+
+.formulario label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.formulario .input-padrao {
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px var(--azul);
+    display: block;
+    font-size: 20px;
+    padding: 5px;
+    width: 100%;
+}
+
+.input-mensagem-erro {
+    display: none;
+}
+
+.input-container--invalido .input-mensagem-erro {
+    color: var(--vermelho);
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+}

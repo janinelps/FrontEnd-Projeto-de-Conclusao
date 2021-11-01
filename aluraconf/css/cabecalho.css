@@ -1,0 +1,53 @@
+.cabecalho {
+    background-image: url(../img/destaque.jpeg);
+    padding-top: 32px;
+    background-size: cover;
+}
+
+.cabecalho .cabecalho-menu {
+    text-align: center;
+}
+
+.cabecalho .cabecalho-menu .cabecalho-link {
+    display: inline-block;
+    margin: 0 2px 32px 0;
+}
+
+.cabecalho .cabecalho-link a {
+    color: var(--branco);
+    background: var(--preto);
+    border-radius: 5px;
+    padding: 16px;
+    transition: ease-in-out .5s;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.cabecalho-link a:hover {
+    background-color: var(--azul);
+}
+
+.cabecalho .jumbotrom {
+    padding: 0 0 45px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cabecalho .painel-main {
+    color: var(--branco);
+    text-shadow: 4px 4px 10px black;
+}
+
+.cabecalho .jumbotrom .painel-titulo {
+    font-size: 3.5em;
+}
+
+.cabecalho .jumbotrom .painel-subtitulo {
+    color: var(--verde);
+    font-size: 3em;
+    margin-top: 8px;
+}
+
+.cabecalho .jumbotrom .painel-incricao {
+    margin-top: 30px;
+}
