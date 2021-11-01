@@ -7,6 +7,15 @@
 
 <br>
 
+
+## Layout
+
+<div>
+  <img src="./github/Layout.png" alt="layout-web" height="425">
+</div>
+
+<br>
+
 ## Demonstração
 
 <div align="center" >
